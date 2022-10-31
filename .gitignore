@@ -580,3 +580,4 @@ GitHub.sublime-settings
 secring.*
 
 .idea/
+yarn.lock
