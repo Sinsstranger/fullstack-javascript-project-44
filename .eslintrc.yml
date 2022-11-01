@@ -11,9 +11,10 @@ parserOptions:
   sourceType: module
 plugins:
   - jest
+  - smarter-tabs
 rules:
   indent:
-    - error
+    - 2
     - tab
   linebreak-style:
     - error
@@ -24,7 +25,9 @@ rules:
   semi:
     - error
     - always
-  no-console: 0
+  no-console: off
+  no-plusplus: off
+  no-tabs: ["error", { "allowIndentationTabs": true }]
   import/extensions: # FIXME: remove when rule will be adjusted for new nodejs version
     - error
     - ignorePackages
