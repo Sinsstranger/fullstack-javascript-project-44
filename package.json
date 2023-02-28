@@ -1,0 +1,40 @@
+{
+	"type": "module",
+	"name": "@hexlet/code",
+	"version": "1.0.0",
+	"description": "[![Actions Status](https://github.com/Sinsstranger/fullstack-javascript-project-44/workflows/hexlet-check/badge.svg)](https://github.com/Sinsstranger/fullstack-javascript-project-44/actions)",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"bin": {
+		"brain-games": "bin/brain-games.js",
+		"brain-even": "bin/brain-even.js",
+		"brain-calc": "bin/brain-calc.js",
+		"brain-gcd": "bin/brain-gcd.js",
+		"brain-progression": "bin/brain-progression.js",
+		"brain-prime": "bin/brain-prime.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Sinsstranger/fullstack-javascript-project-44.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Sinsstranger/fullstack-javascript-project-44/issues"
+	},
+	"homepage": "https://github.com/Sinsstranger/fullstack-javascript-project-44#readme",
+	"dependencies": {
+		"@hexlet/pairs": "^1.1.1",
+		"readline-sync": "^1.4.10"
+	},
+	"devDependencies": {
+		"eslint": "^8.25.0",
+		"eslint-config-airbnb": "^19.0.4",
+		"eslint-plugin-import": "^2.26.0",
+		"eslint-plugin-jsx-a11y": "^6.6.1",
+		"eslint-plugin-react": "^7.31.8",
+		"eslint-plugin-react-hooks": "^4.6.0"
+	}
+}
